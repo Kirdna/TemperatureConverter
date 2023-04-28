@@ -17,9 +17,9 @@ function onCalculateBtnClicked(){
     let valueAsNumber = parseFloat(userTypedValue);
     console.log("Got the value from the textbox it was: " + userTypedValue);
 
-    let celsius = (valueAsNumber - 32) * 5/9;
-    console.log("calculated the value of: " + celsius);
+    let celcius = (valueAsNumber - 32) * 5/9;
+    console.log("calculated the value of: " + celcius);
 
-    txtOutput.value = celsius;
+    txtOutput.value = celcius;
 
 }
