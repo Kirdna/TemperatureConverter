@@ -23,3 +23,7 @@ function onCalculateBtnClicked(){
     txtOutput.value = celcius;
 
 }
+
+function fun(){  
+    document.getElementById("myForm").reset();  
+  }

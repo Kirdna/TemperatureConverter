@@ -23,3 +23,7 @@ function onCalculateBtnClicked(){
     txtOutput.value = fahrenheit;
 
 }
+
+ function fun(){  
+   document.getElementById("myForm").reset();  
+ }
